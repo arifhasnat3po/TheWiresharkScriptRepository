@@ -5,13 +5,18 @@ The purpose of this lab report is to analyze malicious network traffic and ident
 
 #Methodology
 Malware Traffic Analysis package link: https://malware-traffic-analysis.net/2020/05/28/index.html 
-	Password-protected access to the malware traffic was obtained using the password "infected".
-	The traffic was filtered to focus on specific protocols and ports, such as DNS, HTTP, and HTTPS on port 443.
-	Specific filters were applied to identify the IP address of the infected machine, the user agent, and the server used.
-	The TCP stream was followed to reveal specific traffic, such as a POP3 email server link, an OpenVPN password and configuration, and OpenSSH traffic.
-	HTTP filters were used to identify specific IP addresses associated with a post at packet 1496 and a file being exported using HTTP.
-	Hash decoding was used to identify the specific fingerprint of the Trickbot infection using a tool called JA3.
-	Results
+
+The traffic was filtered to focus on specific protocols and ports, such as DNS, HTTP, and HTTPS on port 443.
+
+Specific filters were applied to identify the IP address of the infected machine, the user agent, and the server used.
+
+The TCP stream was followed to reveal specific traffic, such as a POP3 email server link, an OpenVPN password and configuration, and OpenSSH traffic.
+	
+HTTP filters were used to identify specific IP addresses associated with a post at packet 1496 and a file being exported using HTTP.
+	
+Hash decoding was used to identify the specific fingerprint of the Trickbot infection using a tool called JA3.
+
+Results
 
 #Step 1: Password-protected access to the malware traffic was obtained
 Access to the malware traffic was obtained by using the password "infected". This allowed us to view the captured network traffic for analysis.
