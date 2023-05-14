@@ -15,14 +15,19 @@ Malware Traffic Analysis package link: https://malware-traffic-analysis.net/2020
 
 #Step 1: Password-protected access to the malware traffic was obtained
 Access to the malware traffic was obtained by using the password "infected". This allowed us to view the captured network traffic for analysis.
+
 #Step 2: The traffic was filtered to focus on specific protocols and ports
 The traffic was filtered to focus on specific protocols and ports, such as DNS, HTTP, and HTTPS on port 443. This allowed us to narrow down the traffic to specific areas of interest for analysis.
+
 #Step 3: Specific filters were applied to identify the IP address of the infected machine, the user agent, and the server used
 Filters were applied to identify the IP address of the infected machine, the user agent, and the server used. By analyzing this information, we were able to identify specific details about the malware, such as the specific version of the user agent and the server used by the malware.
+
 #Step 4: The TCP stream was followed to reveal specific traffic
 The TCP stream was followed to reveal specific traffic, such as a POP3 email server link, an OpenVPN password and configuration, and OpenSSH traffic. By following the TCP stream, we were able to analyze the specific traffic and identify the types of data being transmitted.
+
 #Step 5: HTTP filters were used to identify specific IP addresses associated with a post at packet 1496 and a file being exported using HTTP
 HTTP filters were used to identify specific IP addresses associated with a post at packet 1496 and a file being exported using HTTP. This allowed us to analyze the data being transmitted and identify potential indicators of compromise.
+
 #Step 6: Hash decoding was used to identify the specific fingerprint of the Trickbot infection using a tool called JA3
 Hash decoding was used to identify the specific fingerprint of the Trickbot infection using a tool called JA3. By using this tool, we were able to identify the specific fingerprint of the malware and determine that it was a Trickbot infection.
 
